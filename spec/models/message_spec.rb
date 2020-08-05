@@ -5,7 +5,7 @@ RSpec.describe Message, type: :model do
     before do
       @message = FactoryBot.build(:message)
       @message.image = fixture_file_upload('public/images/test_image.png')
-    end
+    endkkjhgfdddfddkk
 
     it 'contentとimageが存在していれば保存できること' do
       expect(@message).to be_valid
